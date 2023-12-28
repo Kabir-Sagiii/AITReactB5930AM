@@ -1,0 +1,8 @@
+Users API
+---------
+https://randomuser.me/api/?results=20 
+method type: GET
+
+Github API's
+----------------
+ https://api.github.com/users/<USERNAME>
