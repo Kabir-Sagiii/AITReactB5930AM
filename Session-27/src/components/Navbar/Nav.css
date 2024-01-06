@@ -1,0 +1,20 @@
+#nav {
+  background-color: black;
+  height: 70px;
+  display: flex;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav h2 {
+  margin: 0;
+  color: white;
+}
+#nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+}
