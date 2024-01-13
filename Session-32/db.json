@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Rohan",
+      "city": "delhi",
+      "id": 2
+    },
+    {
+      "name": "Sneha Reddy",
+      "city": "hyderabad",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "pname": "Iphone 15",
+      "price": 120000,
+      "rating": 4.5
+    },
+    {
+      "id": 1,
+      "pname": "Iphone 15",
+      "price": 120000,
+      "rating": 4.5
+    }
+  ]
+}
