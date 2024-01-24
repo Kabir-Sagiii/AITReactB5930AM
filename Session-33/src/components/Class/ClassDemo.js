@@ -1,12 +1,39 @@
 import { Component } from "react";
-import Header from "./Header";
 
 class ClassDemo extends Component {
+  static getDerivedStateFromProps(props, state) {
+    console.log("getDerivedStateFromProps is called");
+    if (state.title === null) {
+      return props;
+    } else {
+      return null;
+    }
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    console.log("shouldComponentUpdate is called");
+    return true;
+  }
+
+  componentDidUpdate() {
+    console.log("ComponentDidUpdate is called");
+  }
+
+  getSnapshotBeforeUpdate(prevProps, prevState) {
+    console.log("getSnapshotBeforeUpdate is called");
+    return null;
+  }
+
   constructor(props) {
     super(props);
     this.state = {
-      title: "Class Component First Title",
+      title: null,
     };
+    console.log("Constructor is Called");
+  }
+
+  componentDidMount() {
+    console.log("componentDidMount is called");
   }
 
   updateTitle = () => {
@@ -16,10 +43,10 @@ class ClassDemo extends Component {
   };
 
   render() {
+    console.log("render is called");
     return (
       <div className="container mt-5 p-4">
-        <Header />
-        <h2 className="text-success">{this.props.title}</h2>
+        <h2 className="text-success">{this.state.title}</h2>
         <p className="lead">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
           asperiores quaerat nesciunt magnam blanditiis nam necessitatibus,

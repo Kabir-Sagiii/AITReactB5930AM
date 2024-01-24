@@ -8,7 +8,9 @@ https://drive.google.com/file/d/1Chc8pQev2HhFJSpEIhCcAjj8IRS2Es1w/view?usp=shari
 
 Lifecylce Methods
 -------------------
-Will Update Soon (Max by Sat)
+https://drive.google.com/file/d/1TDdMdF1xX6kpKyiqJrkfyTawYDnAQxwr/view?usp=sharing
+
+https://legacy.reactjs.org/docs/react-component.html
 
 Lazy loading Error Boundaries
 ----------------
@@ -17,7 +19,7 @@ https://drive.google.com/file/d/1-Anb4i_3tYx86qkhKIqiSh-BSYYdIoDQ/view?usp=shari
 
 React Profiler 
 ------------------
-Will Update Soon (Max by Sat)
+https://drive.google.com/file/d/1BbgJ3yQpGy27SBS3L7BLun-E6fSlfWjv/view?usp=sharing
 
 
 Note:

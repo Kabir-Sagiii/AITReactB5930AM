@@ -5,7 +5,7 @@ function Nav() {
   return (
     <div id="nav">
       <div className="flexcontainer" style={{ width: "40%" }}>
-        <h2>My-Mart App</h2>
+        <h2>Lifecycle Methods</h2>
       </div>
 
       <div className="flexcontainer" style={{ width: "60%" }}>
@@ -13,8 +13,6 @@ function Nav() {
         <NavLink to="/profile">Profile</NavLink>
         <NavLink to="/products">Products</NavLink>
         <NavLink to="/cart">Add-To-Cart</NavLink>
-        <NavLink to="/redux">Redux</NavLink>
-        <NavLink to="/jsonserver">Json-Server</NavLink>
       </div>
     </div>
   );
